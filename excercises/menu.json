@@ -1,0 +1,12 @@
+[
+    "hello world",
+    "multiple routes",
+    "read and return JSON",
+    "render a template",
+    "handle a form POST",
+    "handle a session",
+    "handling errors",
+    "handle multipart",
+    "serve static files",
+    "handle auth & validation"
+]
