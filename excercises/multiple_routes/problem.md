@@ -3,10 +3,10 @@ Write a program that creates a HTTP server that responds to
 
 Your HTTP server should respond to the following queries
 
- - GET /song/<song> => 200 'song: <song>'
- - GET /album/<album> => 200 'album: <album>'
- - GET /playlist/<playlist> => 200 'playlist: <playlist>'
- - GET /<anything-else> => 404 'Not Found'
+ - GET /song/{{song}} => 200 'song: {{song}}'
+ - GET /album/{{album}} => 200 'album: {{album}}'
+ - GET /playlist/{{playlist}} => 200 'playlist: {{playlist}}'
+ - GET /{{anything-else}} => 404 'Not Found'
 
 The port comes from the CLI args `process.argv[2]`.
 
