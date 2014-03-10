@@ -25,7 +25,10 @@
     "request": "~2.34.0",
     "process": "~0.6.0",
     "continuable-para": "~1.2.0",
-    "routes": "~0.2.0"
+    "routes": "~0.2.0",
+    "uuid": "~1.4.1",
+    "body": "~4.4.2",
+    "send-data": "~3.1.2"
   },
   "devDependencies": {
     "tape": "~1.0.2",
