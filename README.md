@@ -12,13 +12,16 @@
 
 A workshopper for http framework
 
+![Http Works!](https://github.com/Raynos/http-works/raw/master/http-works.png)
+
 ## Example
 
-```js
-var httpWorks = require("http-works")
+to install: `npm install http-works -g`
 
-// TODO. Show example
-```
+to start: `http-works`
+
+`http-works` runs through a series of challenges to build API
+  services
 
 ## Installation
 
