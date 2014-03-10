@@ -17,4 +17,19 @@ POST /{{someUri}} {{invalidJson}} => 500 'invalid json'
 
 ## Hints
 
+Your web server needs to 
+
+ - parse the body
+ - handle parsing errors
+ - serialize `{ url: req.url, json: json }` to the response
+
+For more documentation check out:
+
+[`req.on('data')`][http://nodejs.org/api/stream.html#stream_event_data]
+[`req.on('end')`][http://nodejs.org/api/stream.html#stream_event_end]
+[`res.setHeader`][http://nodejs.org/api/http.html#http_response_setheader_name_value]
+[JSON.parse & JSON.stringify][https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse]
+[`body/json`][http://github.com/Raynos/body#jsonbodyreq-res-opts-cberror-any]
+[`send-data/json`][http://github.com/Raynos/send-data]
+
 ---

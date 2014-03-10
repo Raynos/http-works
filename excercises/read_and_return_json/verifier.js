@@ -35,6 +35,9 @@ parallel({
 
         assert.equal(resp.statusCode, 200,
             'statusCode is not 200')
+        assert.equal(resp.headers['content-type'],
+            'application/json',
+            'content-type header is incorrect')
         assert.deepEqual(resp.body, {
             url: format('/%s', firstUri),
             json: firstPayload
@@ -49,6 +52,9 @@ parallel({
 
         assert.equal(resp.statusCode, 200,
             'statusCode is not 200')
+        assert.equal(resp.headers['content-type'],
+            'application/json',
+            'content-type header is incorrect')
         assert.deepEqual(resp.body, {
             url: format('/%s', secondUri),
             json: secondPayload
