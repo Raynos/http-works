@@ -14,6 +14,8 @@ A workshopper for http framework
 
 ![Http Works!](https://github.com/Raynos/http-works/raw/master/http-works.png)
 
+**Work in progress, see [pull requests](https://github.com/Raynos/http-works/pulls) or [dev branch](https://github.com/Raynos/http-works/tree/dev)**
+
 ## Example
 
 to install: `npm install http-works -g`
