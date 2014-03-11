@@ -2,7 +2,19 @@ Write a program that creates a HTTP server returning hello world.
 
 The port will be given as a command line argument `process.argv[2]`
 
-Your web server should return `"hello world"`
+Your web server should respond to
+
+```http
+GET / HTTP/1.1
+```
+
+with
+
+```http
+HTTP/1.1 200 OK
+
+hello world
+```
 
 ---
 
